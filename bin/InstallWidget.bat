@@ -16,8 +16,8 @@ if %errorLevel% == 0 (
 
 if defined %PROGRAMFILES(x86)% (
     rem use /unregister to uninstall
-    %SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\regasm.exe /nologo /codebase "FocusTimer.dll"
+    %SystemRoot%\Microsoft.NET\Framework64\v4.0.30319\regasm.exe /nologo /codebase "TomatoTimer.dll"
 ) else (
-    %SystemRoot%\Microsoft.NET\Framework\v4.0.30319\regasm.exe /nologo /codebase "FocusTimer.dll"
+    %SystemRoot%\Microsoft.NET\Framework\v4.0.30319\regasm.exe /nologo /codebase "TomatoTimer.dll"
 )
 pause

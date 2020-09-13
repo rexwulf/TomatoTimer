@@ -1,6 +1,7 @@
 ﻿using CSDeskBand.ContextMenu;
 using System;
 using System.Collections.Generic;
+using System.Media;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
@@ -11,8 +12,8 @@ namespace ExampleWinforms
 {
     [ComVisible(true)]
     [Guid("FB17B6DA-E3D7-4D17-9E43-3416983372A9")]
-    [CSDeskBand.CSDeskBandRegistration(Name = "Focus Window", ShowDeskBand = false)]
-    public class FocusTimer : CSDeskBand.CSDeskBandWin
+    [CSDeskBand.CSDeskBandRegistration(Name = "Tomato Timer", ShowDeskBand = false)]
+    public class TomatoTimer : CSDeskBand.CSDeskBandWin
     {
         private static Control _control;
         private CancellationTokenSource cancellationSource;
@@ -21,7 +22,7 @@ namespace ExampleWinforms
         private readonly string clockIcon = Encoding.UTF8.GetString(new byte[] { 0xF0, 0x9F, 0x95, 0x91 });
         private readonly List<int> timeWindows = new List<int>{0, 5, 10, 15, 20, 25, 30};
 
-        public FocusTimer()
+        public TomatoTimer()
         {
             Options.ShowTitle = true;
             this.Options.ContextMenuItems = ContextMenuItems;
@@ -56,6 +57,7 @@ namespace ExampleWinforms
                         $"You've spent {defaultTimerMinutes} minutes.",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
+                SystemSounds.Beep.Play();
             }
         }
 

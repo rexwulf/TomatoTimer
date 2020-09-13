@@ -51,7 +51,7 @@
     <Compile Include="..\..\output\CSDeskBand.cs">
       <Link>CSDeskBand.cs</Link>
     </Compile>
-    <Compile Include="FocusTimer.cs" />
+    <Compile Include="TomatoTimer.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
