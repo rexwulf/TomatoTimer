@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="resources/images/logo.png" alt="Logo" width=45% height=25%>
+    <img src="resources/images/logo.png" alt="Logo" width=30% height=25%>
   </a>
   
   <p align="center">
