@@ -1,18 +1,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="resources/images/logo.png" alt="Logo" width=30% height=25%>
+  <a href="https://github.com/rexwulf/TomatoTimer">
+    <img src="resources/images/logo.png" alt="Logo" width=45% height=25%>
   </a>
-  
-  <p align="center">
-    A tangy experience to manage your time effectively!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
 </p>
+<p align="center">
+  A tangy experience to manage your time effectively!
+  <br />
+  <a href="https://github.com/rexwulf/TomatoTimer/issues">Report Bug</a>
+  ·
+  <a href="https://github.com/rexwulf/TomatoTimer/issues">Request Feature</a>
+</p>
+
 
 
 
@@ -49,7 +49,7 @@ For enforcing this technique quickly each time, I developed a minimal Taskbar to
 
 ## Screenshot
 <p align="center">
-<img src="resources\images\TimerView.PNG" width=50% height=45% alt="product">
+<img src="resources\images\TimerView.png" width=50% height=45% alt="product">
 </p>
 
 ## Features:
@@ -73,52 +73,29 @@ For enforcing this technique quickly each time, I developed a minimal Taskbar to
 
 
 <p align="center">
-<img src="resources\images\EnableInTaskBar.PNG" width=50% height=45% alt="Enable in Taskbar">
+<img src="resources\images\EnableInTaskBar.png" width=50% height=45% alt="Enable in Taskbar">
 </p>
 
 ## Usage
 1. Right-click the clock icon in the Taskbar.
 2. Select a time window out of the given options.
    <p align="center">
-   <img src="resources\images\MenuOptions.PNG" width=20% height=13% alt="Menu options">
+   <img src="resources\images\MenuOptions.png" width=20% height=13% alt="Menu options">
    </p>
 3. Now a live counter of no. of minutes remaining will be displayed besides the clock icon.
 4. To stop or reset the timer (not pause), select the ```Stop``` option from the menu.
 5. Once the timer expires or the user cancels it, a message popup will notify the user.
    
    <p align="center">
-   <img src="resources\images\MessageBox.PNG" width=40% height=35% alt="Notification message">
+   <img src="resources\images\MessageBox.png" width=40% height=35% alt="Notification message">
    </p>
 
 
 <!-- ROADMAP -->
 ## Roadmap
-
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the GPL License. See `LICENSE` for more information.
-
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
